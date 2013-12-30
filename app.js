@@ -9,8 +9,8 @@ legoMarvel = {
 	containingElem: "#actualPriceContent", // The external container of the price data - *You don't need to change it*
 	targetElem: ".priceLarge", // The container of the price data - *You don't need to change it*
 	targetEmail: "YOUR_EMAIL@ADDRESS.com", // The email address where you'll be receiving the notifications
-	timeFrame: 1000, // How often it will be checking for a price change (in milliseconds)
-	sentinelEmail: "ENTER_A_GMAIL_ACCOUNT@gmail.com", // Email account that will send the notifications
+	timeFrame: 10000, // How often it will be checking for a price change (in milliseconds)
+	sentinelEmail: "ENTER_A_GMAIL_ACCOUNT@gmail.com", // Email account that will send the notifications (SMTP like gmail)
 	sentinelPass: "ENTER_PASSWORD" // Account's password
 }
 
@@ -19,8 +19,8 @@ xboxController = {
 	containingElem: "#actualPriceContent", // The external container of the price data - *You don't need to change it*
 	targetElem: ".priceLarge", // The container of the price data - *You don't need to change it*
 	targetEmail: "YOUR_EMAIL@ADDRESS.com", // The email address where you'll be receiving the notifications
-	timeFrame: 1000, // How often it will be checking for a price change (in milliseconds)
-	sentinelEmail: "ENTER_A_GMAIL_ACCOUNT@gmail.com", // Email account that will send the notifications
+	timeFrame: 10000, // How often it will be checking for a price change (in milliseconds)
+	sentinelEmail: "ENTER_A_GMAIL_ACCOUNT@gmail.com", // Email account that will send the notifications (SMTP like gmail)
 	sentinelPass: "ENTER_PASSWORD" // Account's password
 }
 
