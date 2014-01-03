@@ -9,7 +9,7 @@ legoMarvel = {
 	containingElem: "#actualPriceContent", // The external container of the price data - *You don't need to change it*
 	targetElem: ".priceLarge", // The container of the price data - *You don't need to change it*
 	targetEmail: "YOUR_EMAIL@ADDRESS.com", // The email address where you'll be receiving the notifications
-	timeFrame: 10000, // How often it will be checking for a price change (in milliseconds)
+	interval: 10000, // How often it will be checking for a price change (in milliseconds)
 	sentinelEmail: "ENTER_A_GMAIL_ACCOUNT@gmail.com", // Email account that will send the notifications (SMTP like gmail)
 	sentinelPass: "ENTER_PASSWORD" // Account's password
 }
@@ -19,12 +19,12 @@ xboxController = {
 	containingElem: "#actualPriceContent", // The external container of the price data - *You don't need to change it*
 	targetElem: ".priceLarge", // The container of the price data - *You don't need to change it*
 	targetEmail: "YOUR_EMAIL@ADDRESS.com", // The email address where you'll be receiving the notifications
-	timeFrame: 10000, // How often it will be checking for a price change (in milliseconds)
+	interval: 10000, // How often it will be checking for a price change (in milliseconds)
 	sentinelEmail: "ENTER_A_GMAIL_ACCOUNT@gmail.com", // Email account that will send the notifications (SMTP like gmail)
 	sentinelPass: "ENTER_PASSWORD" // Account's password
 }
 
-//Finally you just need to 'call' the object as a parameter of the scrApp.finfItem function (you have to do it for every object you want to check:
+//Finally you just need to 'call' the object as a parameter of the scrApp.findItem function (you have to do it for every object you want to check:
 scrApp.findItem(legoMarvel);
 scrApp.findItem(xboxController);
 
